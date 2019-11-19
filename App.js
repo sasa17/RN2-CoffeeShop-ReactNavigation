@@ -3,6 +3,7 @@ import { Spinner, Header, Container } from "native-base";
 
 // Components
 import Login from "./Components/Authentication/Login";
+import Signup from "./Components/Authentication/Signup";
 import CoffeeList from "./Components/CoffeeList";
 import CoffeeDetail from "./Components/CoffeeDetail";
 import CoffeeCart from "./Components/CoffeeCart";
@@ -27,7 +28,7 @@ export default class App extends Component {
     return (
       <Container>
         <Header />
-        <CoffeeCart />
+        <Login />
       </Container>
     );
   }
